@@ -1,0 +1,2 @@
+const image1 = "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+const image2 = "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8b3Bwb3J0dW5pdHl8ZW58MHx8MHx8&w=1000&q=80";

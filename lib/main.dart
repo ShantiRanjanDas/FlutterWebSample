@@ -1,32 +1,32 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web_sample/navigation/not_found.dart';
-import 'package:flutter_web_sample/navigation/settings.dart';
-
-import 'screens/links_landing_page.dart';
+import 'package:flutter_web_sample/not_found_page.dart';
+import 'package:flutter_web_sample/screens.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      // home: const LinksLandingPage(),
       initialRoute: '/',
       routes: {
-        '/':(context) => const LinksLandingPage(),
-        '/settings':(context) => const Settings(),
+        '/': (context) => AllScreens(),
+        // '/settings': (context) => SettingsPage(),
       },
-      onUnknownRoute: (ur) => MaterialPageRoute(builder: (context) => const NotFound()),
+      onUnknownRoute: (settings) {
+        return MaterialPageRoute(
+          builder: (context) {
+            return NotFoundPage();
+          },
+        );
+      },
     );
   }
 }
-
