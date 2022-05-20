@@ -1,16 +1,27 @@
 # flutter_web_sample
 
-A new Flutter project.
+A sample test Flutter project.
 
-## Getting Started
+## Why should we use dart for flutter?
 
-This project is a starting point for a Flutter application.
+The Dart language usually outperforms all other development frameworks in terms of device performance. The Google-backed Flutter framework is an open-source development toolkit. It enables developers to post queries and gives them the authority to access various documents through open developer forums. The most common features are:-.
 
-A few resources to get you started if this is your first Flutter project:
+1. AOT and JIT compilation for fast reload and fast released code.
+2. A good garbage collector to clean up after creating and destroying many objects.
+3. Single threaded to avoid locks and therefore jank.
+4. An arm compiler to avoid having another engine running the code on the device (aka React Native)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [For more](https://kodytechnolab.com/why-flutter-uses-dart)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Advantages of Dart over Kotlin/Swift
+
+There are several advantages of Dart over Kotlin/Swift
+1. Flutter is open-source.
+2. It supports cross platfrom development.
+3. Supports hot-reload.
+4. Easy to create widgets.
+5. Accessible native features.
+6. Uses JIT and AOT compilation.
+7. Minimal code.
+
+- [For more](https://scand.com/company/blog/dart-vs-kotlin-which-one-is-best-for-your-app-in-2021/)
